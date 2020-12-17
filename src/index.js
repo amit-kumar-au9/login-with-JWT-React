@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Routing from './Component/Routing'
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Initial Start of code</h1>
+    <Routing/>
   </React.StrictMode>,
   document.getElementById('root')
 );
